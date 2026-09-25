@@ -1,1110 +1,1612 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Hotel Coral Bay</title>
-     <link rel="stylesheet" href="style.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      <!-- Navbar will go here -->
 
-      <nav>
+    <!-- =========================
+         NAVBAR
+    ========================== -->
 
-    <div class="logo">
-        <a href="#">CORAL BAY</a>
+    <nav>
+
+        <div class="logo">
+            <a href="#">CORAL BAY</a>
+        </div>
+
+        <div class="nav-right">
+
+            <ul>
+
+                <li class="nav-item">
+                    <a href="#about">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#rooms">Rooms</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#experiences">Experiences</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#gallery">Gallery</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+            <a href="#contact" class="room_booking">
+                Book Now
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+
+    <section class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <p class="hero-small">
+                WELCOME TO
+            </p>
+
+            <h1>
+                Coral Bay
+            </h1>
+
+            <p class="hero-text">
+                Experience luxury, comfort and unforgettable moments
+                by the sea.
+            </p>
+
+            <a href="#rooms" class="hero-btn">
+                Explore More
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT SECTION
+    ========================== -->
+
+    <section class="about-section" id="about">
+
+        <div class="about-content">
+
+            <p class="about-subtitle">
+                A STAY TO REMEMBER
+            </p>
+
+            <h2>
+                Experience Coral Bay
+            </h2>
+
+            <p class="about-text">
+                Discover a peaceful escape where luxury meets the beauty
+                of the sea. At Coral Bay, every moment is designed to
+                make your stay comfortable, relaxing and unforgettable.
+            </p>
+
+            <a href="#experiences" class="about-btn">
+                Discover More
+            </a>
+
+        </div>
+
+
+        <div class="about-image">
+
+            <img
+                src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/2018/04/25084039/25042018_cocoshambhala_02.jpg?w=1200&h=628&fill=blur&fit=fill"
+                alt="Coral Bay Resort"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ROOM SECTION
+    ========================== -->
+
+    <section class="room-section" id="rooms">
+
+        <div class="rooms-heading">
+
+            <p>
+                OUR ROOMS
+            </p>
+
+            <h2>
+                Stay in comfort & luxury
+            </h2>
+
+        </div>
+
+
+        <div class="room-carousel">
+
+            <button class="carousel-btn prev">
+                ←
+            </button>
+
+
+            <div class="room-track">
+
+
+                <!-- =========================
+                     ROOM 1 - DELUXE ROOM
+                ========================== -->
+
+                <div class="room-card">
+
+                    <img
+                        src="https://www.travelandleisure.com/thmb/Rbw2akzNOkyIIJAq8fIHPaAQKlM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-four-seasons-tamarindo-beach-ITLIST2023-2d9121504b8941c9bcecb1362f289a1e.jpg"
+                        alt="Deluxe Room"
+                    >
+
+                    <div class="room-info">
+
+                        <h2>
+                            DELUXE ROOM
+                        </h2>
+
+                        <h3>
+                            Deluxe Room
+                        </h3>
+
+                        <p>
+                            A comfortable stay with elegant interiors
+                            and beautiful surroundings.
+                        </p>
+
+
+                        <div class="room-features">
+
+                            <span>
+                                🛏 1 King Bed
+                            </span>
+
+                            <a
+                                href="javascript:void(0)"
+                                class="room-details"
+                                onclick="openModal('deluxeModal')"
+                            >
+                                Room details
+                            </a>
+
+                        </div>
+
+
+                        <hr class="solid">
+
+
+                        <a href="#" class="availability-btn">
+                            Check Availability
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =========================
+                     ROOM 2 - OCEAN VILLA
+                ========================== -->
+
+                <div class="room-card">
+
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT13WzukpAOhgmWQav27C9kBs-bUkfOvmdzIOuDCGPD8oizmbO3UfRfmoX2&s=10"
+                        alt="Ocean Villa"
+                    >
+
+                    <div class="room-info">
+
+                        <h2>
+                            VILLA
+                        </h2>
+
+                        <h3>
+                            Ocean Villa
+                        </h3>
+
+                        <p>
+                            Relax in a private villa with stunning
+                            views of the ocean.
+                        </p>
+
+
+                        <div class="room-features">
+
+                            <span>
+                                🛏 2 King Bed
+                            </span>
+
+                            <a
+                                href="javascript:void(0)"
+                                class="room-details"
+                                onclick="openModal('oceanModal')"
+                            >
+                                Room details
+                            </a>
+
+                        </div>
+
+
+                        <hr class="solid">
+
+
+                        <a href="#" class="availability-btn">
+                            Check Availability
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =========================
+                     ROOM 3 - BEACH SUITE
+                ========================== -->
+
+                <div class="room-card">
+
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MdwCCfjMZxs8Pyo_FsdXHOoGtMm1VrjjNqVEwSSDPfslXWMDDfN9Zfk&s=10"
+                        alt="Beach Suite"
+                    >
+
+                    <div class="room-info">
+
+                        <h2>
+                            SUITE
+                        </h2>
+
+                        <h3>
+                            Beach Suite
+                        </h3>
+
+                        <p>
+                            A spacious suite designed for a peaceful
+                            stay beside the sea.
+                        </p>
+
+
+                        <div class="room-features">
+
+                            <span>
+                                🛏 1 King Bed
+                            </span>
+
+                            <a
+                                href="javascript:void(0)"
+                                class="room-details"
+                                onclick="openModal('beachModal')"
+                            >
+                                Room details
+                            </a>
+
+                        </div>
+
+
+                        <hr class="solid">
+
+
+                        <a href="#" class="availability-btn">
+                            Check Availability
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =========================
+                     ROOM 4 - GARDEN VILLA
+                ========================== -->
+
+                <div class="room-card">
+
+                    <img
+                        src="https://www.kayak.co.in/rimg/himg/98/aa/2c/expedia_group-188445-181466277-863690.jpg?width=836&height=607&crop=true"
+                        alt="Garden Villa"
+                    >
+
+                    <div class="room-info">
+
+                        <h2>
+                            VILLA
+                        </h2>
+
+                        <h3>
+                            Garden Villa
+                        </h3>
+
+                        <p>
+                            Escape into nature with a private
+                            villa surrounded by greenery.
+                        </p>
+
+
+                        <div class="room-features">
+
+                            <span>
+                                🛏 2 King Bed
+                            </span>
+
+                            <!-- FIXED: gardenModal -->
+                            <a
+                                href="javascript:void(0)"
+                                class="room-details"
+                                onclick="openModal('gardenModal')"
+                            >
+                                Room details
+                            </a>
+
+                        </div>
+
+
+                        <hr class="solid">
+
+
+                        <a href="#" class="availability-btn">
+                            Check Availability
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =========================
+                     ROOM 5 - PRESIDENTIAL SUITE
+                ========================== -->
+
+                <div class="room-card">
+
+                    <img
+                        src="https://static.vecteezy.com/system/resources/thumbnails/057/820/831/small/the-interior-of-the-hotel-room-with-a-view-ocean-for-a-beach-holiday-and-travel-photo.jpg"
+                        alt="Presidential Suite"
+                    >
+
+                    <div class="room-info">
+
+                        <h2>
+                            PRESIDENTIAL SUITE
+                        </h2>
+
+                        <h3>
+                            Presidential Suite
+                        </h3>
+
+                        <p>
+                            An elegant suite offering exceptional
+                            space, comfort and privacy.
+                        </p>
+
+
+                        <div class="room-features">
+
+                            <span>
+                                🛏 1 King Bed
+                            </span>
+
+                            <a
+                                href="javascript:void(0)"
+                                class="room-details"
+                                onclick="openModal('presidentialModal')"
+                            >
+                                Room details
+                            </a>
+
+                        </div>
+
+
+                        <hr class="solid">
+
+
+                        <a href="#" class="availability-btn">
+                            Check Availability
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =========================
+                     ROOM 6 - ROYAL RESIDENCE
+                ========================== -->
+
+                <div class="room-card">
+
+                    <img
+                        src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/54/8f/8d/caption.jpg?w=900&h=500&s=1"
+                        alt="Royal Residence"
+                    >
+
+                    <div class="room-info">
+
+                        <h2>
+                            ROYAL RESIDENCE
+                        </h2>
+
+                        <h3>
+                            Royal Residence
+                        </h3>
+
+                        <p>
+                            Experience refined luxury with a private
+                            and spacious coastal retreat.
+                        </p>
+
+
+                        <div class="room-features">
+
+                            <span>
+                                🛏 2 King Bed
+                            </span>
+
+                            <!-- FIXED: removed extra < -->
+                            <a
+                                href="javascript:void(0)"
+                                class="room-details"
+                                onclick="openModal('royalModal')"
+                            >
+                                Room details
+                            </a>
+
+                        </div>
+
+
+                        <hr class="solid">
+
+
+                        <a href="#" class="availability-btn">
+                            Check Availability
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <button class="carousel-btn next">
+                →
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         DELUXE ROOM MODAL
+    ========================================================== -->
+
+    <div class="room-modal" id="deluxeModal">
+
+        <div class="room-modal-content">
+
+
+            <div class="room-modal-header">
+
+                <h2>
+                    Deluxe Room
+                </h2>
+
+                <button
+                    class="close-modal"
+                    onclick="closeModal('deluxeModal')"
+                >
+                    ×
+                </button>
+
+            </div>
+
+
+            <div class="room-modal-image">
+
+                <img
+                    src="https://www.travelandleisure.com/thmb/Rbw2akzNOkyIIJAq8fIHPaAQKlM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-four-seasons-tamarindo-beach-ITLIST2023-2d9121504b8941c9bcecb1362f289a1e.jpg"
+                    alt="Deluxe Room"
+                >
+
+            </div>
+
+
+            <div class="room-modal-body">
+
+                <div class="room-modal-intro">
+
+                    <div>
+
+                        <h3>
+                            Deluxe Room, 1 King
+                        </h3>
+
+                        <p>
+                            1 King, Mini fridge, 45sqm,
+                            Wireless internet, complimentary,
+                            Coffee/tea maker
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <hr>
+
+
+                <div class="room-modal-grid">
+
+
+                    <div class="modal-section">
+
+                        <h4>
+                            <span>♧</span>
+                            Special Benefits
+                        </h4>
+
+                        <p>
+                            This room features complimentary
+                            breakfast and lounge access.
+                        </p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>
+                            <span>♧</span>
+                            Beds and Bedding
+                        </h4>
+
+                        <p>Maximum occupancy: 3</p>
+                        <p>1 King</p>
+                        <p>Rollaway beds not permitted</p>
+                        <p>Cribs not permitted</p>
+                        <p>Pillowtop mattress, and Duvet</p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>
+                            <span>▱</span>
+                            Room Features
+                        </h4>
+
+                        <p>45sqm</p>
+                        <p>Air-conditioned</p>
+                        <p>Mini fridge</p>
+                        <p>Coffee/tea maker</p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>
+                            <span>♧</span>
+                            Bath and Bathroom Features
+                        </h4>
+
+                        <p>Shower</p>
+                        <p>Hair dryer</p>
+                        <p>Bathrobe</p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="nav-right">
 
-        <ul>
-            <li class="nav-item">
-                <a href="#home">Home</a>
-            </li>
 
-            <li class="nav-item">
-                <a href="#rooms">Rooms</a>
-            </li>
+    <!-- =========================================================
+         OCEAN VILLA MODAL
+    ========================================================== -->
 
-            <li class="nav-item">
-                <a href="#dining">Dining</a>
-            </li>
+    <div class="room-modal" id="oceanModal">
 
-            <li class="nav-item">
-                <a href="#facilities">Facilities</a>
-            </li>
+        <div class="room-modal-content">
 
-            <li class="nav-item">
-                <a href="#gallery">Gallery</a>
-            </li>
 
-            <li class="nav-item">
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
+            <div class="room-modal-header">
 
-        <a href="#booking" class="room_booking">
-            Book Now
+                <h2>
+                    Ocean Villa
+                </h2>
+
+                <button
+                    class="close-modal"
+                    onclick="closeModal('oceanModal')"
+                >
+                    ×
+                </button>
+
+            </div>
+
+
+            <div class="room-modal-image">
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT13WzukpAOhgmWQav27C9kBs-bUkfOvmdzIOuDCGPD8oizmbO3UfRfmoX2&s=10"
+                    alt="Ocean Villa"
+                >
+
+                <div class="image-controls">
+
+                    <span>‹</span>
+
+                    <div class="image-dots">
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <span>›</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="room-modal-body">
+
+                <div class="room-modal-intro">
+
+                    <div>
+
+                        <h3>
+                            Ocean Villa, 1 King
+                        </h3>
+
+                        <p>
+                            1 King, Private ocean view, 65sqm,
+                            Wireless internet, Mini fridge,
+                            Coffee/tea maker
+                        </p>
+
+                    </div>
+
+                    <a href="#" class="modal-rate-btn">
+                        View Rates
+                    </a>
+
+                </div>
+
+
+                <hr>
+
+
+                <div class="room-modal-grid">
+
+
+                    <div class="modal-section">
+
+                        <h4>♧ Special Benefits</h4>
+
+                        <p>
+                            Private ocean view and
+                            complimentary breakfast.
+                        </p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>♧ Beds and Bedding</h4>
+
+                        <p>Maximum occupancy: 3</p>
+                        <p>1 King</p>
+                        <p>Rollaway beds permitted</p>
+                        <p>Cribs available</p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>▱ Room Features</h4>
+
+                        <p>65sqm</p>
+                        <p>Air-conditioned</p>
+                        <p>Ocean view</p>
+                        <p>Mini fridge</p>
+                        <p>Coffee/tea maker</p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>♧ Bath and Bathroom Features</h4>
+
+                        <p>Rain shower</p>
+                        <p>Hair dryer</p>
+                        <p>Bathrobe</p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================================================
+         BEACH SUITE MODAL
+    ========================================================== -->
+
+    <div class="room-modal" id="beachModal">
+
+        <div class="room-modal-content">
+
+
+            <div class="room-modal-header">
+
+                <h2>
+                    Beach Suite
+                </h2>
+
+                <button
+                    class="close-modal"
+                    onclick="closeModal('beachModal')"
+                >
+                    ×
+                </button>
+
+            </div>
+
+
+            <div class="room-modal-image">
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MdwCCfjMZxs8Pyo_FsdXHOoGtMm1VrjjNqVEwSSDPfslXWMDDfN9Zfk&s=10"
+                    alt="Beach Suite"
+                >
+
+                <div class="image-controls">
+
+                    <span>‹</span>
+
+                    <div class="image-dots">
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <span>›</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="room-modal-body">
+
+                <div class="room-modal-intro">
+
+                    <div>
+
+                        <h3>
+                            Beach Suite, 1 King
+                        </h3>
+
+                        <p>
+                            1 King, Private beach access,
+                            70sqm, Wireless internet,
+                            Mini fridge, Coffee/tea maker
+                        </p>
+
+                    </div>
+
+                    <a href="#" class="modal-rate-btn">
+                        View Rates
+                    </a>
+
+                </div>
+
+
+                <hr>
+
+
+                <div class="room-modal-grid">
+
+
+                    <div class="modal-section">
+
+                        <h4>♧ Special Benefits</h4>
+
+                        <p>
+                            Private beach access and
+                            complimentary breakfast.
+                        </p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>♧ Beds and Bedding</h4>
+
+                        <p>Maximum occupancy: 3</p>
+                        <p>1 King</p>
+                        <p>Rollaway beds permitted</p>
+                        <p>Cribs available</p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>▱ Room Features</h4>
+
+                        <p>70sqm</p>
+                        <p>Air-conditioned</p>
+                        <p>Beach view</p>
+                        <p>Mini fridge</p>
+                        <p>Coffee/tea maker</p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>♧ Bath and Bathroom Features</h4>
+
+                        <p>Rain shower</p>
+                        <p>Hair dryer</p>
+                        <p>Bathrobe</p>
+                        <p>Luxury toiletries</p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================================================
+         GARDEN VILLA MODAL
+    ========================================================== -->
+
+    <div class="room-modal" id="gardenModal">
+
+        <div class="room-modal-content">
+
+
+            <div class="room-modal-header">
+
+                <h2>
+                    Garden Villa
+                </h2>
+
+                <button
+                    class="close-modal"
+                    onclick="closeModal('gardenModal')"
+                >
+                    ×
+                </button>
+
+            </div>
+
+
+            <div class="room-modal-image">
+
+                <img
+                    src="https://www.kayak.co.in/rimg/himg/98/aa/2c/expedia_group-188445-181466277-863690.jpg?width=836&height=607&crop=true"
+                    alt="Garden Villa"
+                >
+
+                <div class="image-controls">
+
+                    <span>‹</span>
+
+                    <div class="image-dots">
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <span>›</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="room-modal-body">
+
+                <div class="room-modal-intro">
+
+                    <div>
+
+                        <h3>
+                            Garden Villa, 1 King
+                        </h3>
+
+                        <p>
+                            1 King, Garden view, 60sqm,
+                            Wireless internet, Mini fridge,
+                            Coffee/tea maker
+                        </p>
+
+                    </div>
+
+                    <a href="#" class="modal-rate-btn">
+                        View Rates
+                    </a>
+
+                </div>
+
+
+                <hr>
+
+
+                <div class="room-modal-grid">
+
+
+                    <div class="modal-section">
+
+                        <h4>♧ Special Benefits</h4>
+
+                        <p>
+                            Private garden view and
+                            complimentary breakfast.
+                        </p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>♧ Beds and Bedding</h4>
+
+                        <p>Maximum occupancy: 3</p>
+                        <p>1 King</p>
+                        <p>Rollaway beds permitted</p>
+                        <p>Cribs available</p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>▱ Room Features</h4>
+
+                        <p>60sqm</p>
+                        <p>Air-conditioned</p>
+                        <p>Garden view</p>
+                        <p>Mini fridge</p>
+                        <p>Coffee/tea maker</p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>♧ Bath and Bathroom Features</h4>
+
+                        <p>Shower</p>
+                        <p>Hair dryer</p>
+                        <p>Bathrobe</p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================================================
+         PRESIDENTIAL SUITE MODAL
+    ========================================================== -->
+
+    <div class="room-modal" id="presidentialModal">
+
+        <div class="room-modal-content">
+
+
+            <div class="room-modal-header">
+
+                <h2>
+                    Presidential Suite
+                </h2>
+
+                <button
+                    class="close-modal"
+                    onclick="closeModal('presidentialModal')"
+                >
+                    ×
+                </button>
+
+            </div>
+
+
+            <div class="room-modal-image">
+
+                <img
+                    src="https://static.vecteezy.com/system/resources/thumbnails/057/820/831/small/the-interior-of-the-hotel-room-with-a-view-ocean-for-a-beach-holiday-and-travel-photo.jpg"
+                    alt="Presidential Suite"
+                >
+
+                <div class="image-controls">
+
+                    <span>‹</span>
+
+                    <div class="image-dots">
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <span>›</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="room-modal-body">
+
+                <div class="room-modal-intro">
+
+                    <div>
+
+                        <h3>
+                            Presidential Suite, 1 King
+                        </h3>
+
+                        <p>
+                            1 King, Private lounge, 130sqm,
+                            Wireless internet, Mini fridge,
+                            Coffee/tea maker
+                        </p>
+
+                    </div>
+
+                    <a href="#" class="modal-rate-btn">
+                        View Rates
+                    </a>
+
+                </div>
+
+
+                <hr>
+
+
+                <div class="room-modal-grid">
+
+
+                    <div class="modal-section">
+
+                        <h4>♧ Special Benefits</h4>
+
+                        <p>
+                            Private lounge access,
+                            complimentary breakfast,
+                            personalized service.
+                        </p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>♧ Beds and Bedding</h4>
+
+                        <p>Maximum occupancy: 3</p>
+                        <p>1 King</p>
+                        <p>Rollaway beds not permitted</p>
+                        <p>Cribs not permitted</p>
+                        <p>Pillowtop mattress, and Duvet</p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>▱ Room Features</h4>
+
+                        <p>130sqm</p>
+                        <p>Air-conditioned</p>
+                        <p>Separate living area</p>
+                        <p>Mini fridge</p>
+                        <p>Coffee/tea maker</p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>♧ Bath and Bathroom Features</h4>
+
+                        <p>Rain shower</p>
+                        <p>Hair dryer</p>
+                        <p>Bathrobe</p>
+                        <p>Luxury toiletries</p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================================================
+         ROYAL RESIDENCE MODAL
+    ========================================================== -->
+
+    <div class="room-modal" id="royalModal">
+
+        <div class="room-modal-content">
+
+
+            <div class="room-modal-header">
+
+                <h2>
+                    Royal Residence
+                </h2>
+
+                <button
+                    class="close-modal"
+                    onclick="closeModal('royalModal')"
+                >
+                    ×
+                </button>
+
+            </div>
+
+
+            <div class="room-modal-image">
+
+                <img
+                    src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/54/8f/8d/caption.jpg?w=900&h=500&s=1"
+                    alt="Royal Residence"
+                >
+
+                <div class="image-controls">
+
+                    <span>‹</span>
+
+                    <div class="image-dots">
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <span>›</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="room-modal-body">
+
+                <div class="room-modal-intro">
+
+                    <div>
+
+                        <h3>
+                            Royal Residence, 2 King Beds
+                        </h3>
+
+                        <p>
+                            2 King Beds, Private pool,
+                            Ocean view, 180sqm,
+                            Wireless internet, Mini fridge
+                        </p>
+
+                    </div>
+
+                    <a href="#" class="modal-rate-btn">
+                        View Rates
+                    </a>
+
+                </div>
+
+
+                <hr>
+
+
+                <div class="room-modal-grid">
+
+
+                    <div class="modal-section">
+
+                        <h4>♧ Special Benefits</h4>
+
+                        <p>
+                            Private pool, private ocean view
+                            and complimentary breakfast.
+                        </p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>♧ Beds and Bedding</h4>
+
+                        <p>Maximum occupancy: 5</p>
+                        <p>2 King Beds</p>
+                        <p>Rollaway beds permitted</p>
+                        <p>Cribs available</p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>▱ Room Features</h4>
+
+                        <p>180sqm</p>
+                        <p>Air-conditioned</p>
+                        <p>Private pool</p>
+                        <p>Ocean view</p>
+                        <p>Separate living area</p>
+                        <p>Mini fridge</p>
+
+                    </div>
+
+
+                    <div class="modal-section">
+
+                        <h4>♧ Bath and Bathroom Features</h4>
+
+                        <p>Rain shower</p>
+                        <p>Hair dryer</p>
+                        <p>Bathrobe</p>
+                        <p>Bathtub</p>
+                        <p>Luxury toiletries</p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- =========================
+     ABOUT CORAL BAY
+========================= -->
+
+<section class="about-section" id="about">
+
+    <div class="about-content">
+
+        <p class="about-label">ABOUT CORAL BAY</p>
+
+        <h2>
+            A stay shaped by the sea,
+            designed around you.
+        </h2>
+
+        <p class="about-text">
+            Discover a peaceful retreat where refined interiors
+            meet the beauty of the coast. Every detail at Coral Bay
+            is designed to make your stay memorable.
+        </p>
+
+        <a href="#" class="about-link">
+            DISCOVER MORE
         </a>
 
     </div>
 
-</nav>
-
-
-    <!-- Hero section will go here -->
-
-   <section class="hero">
-
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-        <p class="hero-small">WELCOME TO</p>
-
-        <h1>Coral Bay</h1>
-
-        <p class="hero-text">
-            Experience luxury, comfort and unforgettable moments
-            by the sea.
-        </p>
-        
-
-        <a href="#" class="hero-btn">Explore More</a>
-    </div>
-
-</section>
-
-<!-- About section-->
-
-<section class="about">
-
-    <div class="about-content">
-
-        <p class="about-subtitle">A STAY TO REMEMBER</p>
-
-        <h2>Experience Coral Bay</h2>
-
-        <p class="about-text">
-            Discover a peaceful escape where luxury meets the beauty
-            of the sea. At Coral Bay, every moment is designed to
-            make your stay comfortable, relaxing and unforgettable.
-        </p>
-
-        <a href="#" class="about-btn">Discover More</a>
-
-    </div>
 
     <div class="about-image">
-        <img src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/2018/04/25084039/25042018_cocoshambhala_02.jpg?w=1200&h=628&fill=blur&fit=fill" alt="Coral Bay Resort">
+
+        <img src="https://images.trvl-media.com/lodging/101000000/100800000/100791500/100791429/97b2102e.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill" alt="Coral Bay Hotel">
+
     </div>
 
 </section>
 
-<!--Room section-->
-<section class="rooms">
+<!-- =========================
+     EXPERIENCES
+========================= -->
 
-    <div class="rooms-heading">
-        <p>OUR ROOMS</p>
+<section class="experience-section" id="experiences">
 
-        <h2>Stay in comfort & luxury</h2>
+    <div class="experience-heading">
+
+        <p class="experience-label">EXPERIENCES</p>
+
+        <h2>
+            Everything you need,
+            nothing you don't.
+        </h2>
+
+        <p>
+            From relaxing moments to unforgettable dining,
+            discover experiences designed to make your stay
+            at Coral Bay truly special.
+        </p>
+
     </div>
 
-    <div class="room-carousel">
-        <button class="carousel-btn prev">←</button>
-        <div class="room-track">
-            <!--Room 1-->
-            <div class="room-card">
-                <img src="https://www.travelandleisure.com/thmb/Rbw2akzNOkyIIJAq8fIHPaAQKlM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-four-seasons-tamarindo-beach-ITLIST2023-2d9121504b8941c9bcecb1362f289a1e.jpg" alt="Deluxe Room">
-                <div class="room-info">
-                    <h2>DELUXE ROOM</h2>
-                    <h3>Deluxe Room</h3>
-                    <p>
-                         A comfortable stay with elegant interiors
-                        and beautiful surroundings.
-                    </p>
 
-                    <div class="room-features">
-                        <span>🛏 1 King Bed</span>
-                       <a href="javascript:void(0);" onclick="openModal('deluxeModal')">
-    Room Details
-</a>
-                    </div>
+    <div class="experience-cards">
 
-                    <hr class="solid">
-                    
-                    <a href="#" class="availability-btn">
-                         Check Availability
-                    </a>
-                </div>
-            </div>
-            <!--Room 2-->
-            <div class="room-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT13WzukpAOhgmWQav27C9kBs-bUkfOvmdzIOuDCGPD8oizmbO3UfRfmoX2&s=10" alt="Ocean Villa">
-                <div class="room-info">
-                    <h2>VILLA</h2>
-                    <h3>Ocean Villa</h3>
-                    <p>
-                         Relax in a private villa with stunning
-                    views of the ocean.
-                    </p>
-                    
-                    <div class="room-features">
-                        <span>🛏 2 King Bed</span>
-                         <a href="javascript:void(0);" onclick="openModal('oceanModal')">
-    Room Details
-</a>
-                    </div>
+        <div class="experience-card">
 
-                    <hr class="solid">
-                    
-                    <a href="#" class="availability-btn">
-                         Check Availability
-                    </a>
-                </div>
+            <img src="https://melatiresort.com/wp-content/uploads/2025/06/Spa-Intro-2.jpg" alt="Coral Bay Spa">
+
+            <div class="experience-card-content">
+                <p>01</p>
+                <h3>The Spa</h3>
+                <a href="#">DISCOVER</a>
             </div>
 
-            <!--Room 3-->
-            <div class="room-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MdwCCfjMZxs8Pyo_FsdXHOoGtMm1VrjjNqVEwSSDPfslXWMDDfN9Zfk&s=10" alt="Beach Suite">
-                <div class="room-info">
-                    <h2>SUITE</h2>
-                    <h3>Beach Suite</h3>
-                    <p>
-                         A spacious suite designed for a peaceful
-                    stay beside the sea.
-                    </p>
-                   
-                    <div class="room-features">
-                        <span>🛏 1 King Bed</span>
-                         <a href="javascript:void(0);" onclick="openModal('beachModal')">
-    Room Details
-</a>
-                    </div>
-
-                    <hr class="solid">
-                    
-                    <a href="#" class="availability-btn">
-                         Check Availability
-                    </a>
-                </div>
-            </div>
-            <!--Room 4-->
-            <div class="room-card">
-                <img src="https://www.kayak.co.in/rimg/himg/98/aa/2c/expedia_group-188445-181466277-863690.jpg?width=836&height=607&crop=true" alt="Garden Villa">
-                <div class="room-info">
-                    <h2>VILLA</h2>
-                    <h3>Garden Villa</h3>
-                    <p>
-                        Escape into nature with a private
-                    villa surrounded by greenery.
-                    </p>
-                   
-                    <div class="room-features">
-                        <span>🛏 2 King Bed</span>
-                       <a href="javascript:void(0);" onclick="openModal('gardenModal')">
-    Room Details
-</a>
-                    </div>
-
-                    <hr class="solid">
-                    
-                    <a href="#" class="availability-btn">
-                         Check Availability
-                    </a>
-                </div>
-            </div>
-            <!--Room 5-->
-            <div class="room-card">
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/057/820/831/small/the-interior-of-the-hotel-room-with-a-view-ocean-for-a-beach-holiday-and-travel-photo.jpg" alt="Presidential Suite">
-                <div class="room-info">
-                    <h2>PRESIDENTIAL SUITE</h2>
-                    <h3>Presidential Suite</h3>
-                    <p>
-                      An elegant suite offering exceptional
-                    space, comfort and privacy.
-                    </p>
-           
-                    <div class="room-features">
-                        <span>🛏 1 King Bed</span>
-                       <a href="#" onclick="openModal('presidentialModal'); return false;">
-    Room Details
-</a>
-                    </div>
-
-                    <hr class="solid">
-                    
-                    <a href="#" class="availability-btn">
-                         Check Availability
-                    </a>
-                </div>
-            </div>
-            <!--Room 6-->
-            <div class="room-card">
-                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/54/8f/8d/caption.jpg?w=900&h=500&s=1" alt="Royal Residence">
-                <div class="room-info">
-                    <h2>ROYAL RESIDENCE</h2>
-                    <h3>Royal Residence</h3>
-                    <p>
-                    Experience refined luxury with a private
-                    and spacious coastal retreat.
-                    </p>
-                   
-                    <div class="room-features">
-                        <span>🛏 2 King Bed</span>
-                       <a href="javascript:void(0);" onclick="openModal('royalModal')">
-    Room Details
-</a>
-                    </div>
-
-                    <hr class="solid">
-                    
-                    <a href="#" class="availability-btn">
-                         Check Availability
-                    </a>
-                </div>
-            </div>
         </div>
-        <button class="carousel-btn next">→</button>
+
+
+        <div class="experience-card">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT6brym7e1fnD4JktoMjpCgmnoNXipCUPBRXBPrxOwz-mEUU9jLCeuStcR&s=10" alt="Coral Bay Dining">
+
+            <div class="experience-card-content">
+                <p>02</p>
+                <h3>Fine Dining</h3>
+                <a href="#">DISCOVER</a>
+            </div>
+
+        </div>
+
+
+        <div class="experience-card">
+
+            <img src="https://khaolakcenter.com/wp-content/uploads/2024/01/1279539793.webp" alt="Coral Bay Pool">
+
+            <div class="experience-card-content">
+                <p>03</p>
+                <h3>Infinity Pool</h3>
+                <a href="#">DISCOVER</a>
+            </div>
+
+        </div>
+
     </div>
 
 </section>
 
-<script>
-    const track = document.querySelector(".room-track");
-    const nextBtn = document.querySelector(".next");
-    const prevBtn = document.querySelector(".prev");
-    const cardWidth  = document.querySelector(".room-card").offsetWidth + 28;
-
-    nextBtn.addEventListener("click",()=>{
-        track.scrollBy({
-            left:cardWidth,
-            behavior:"smooth"
-        });
-    });
-
-    prevBtn.addEventListener("click",()=>{
-         track.scrollBy({
-            left:-cardWidth,
-            behavior:"smooth"
-        });
-    })
-    
-</script>
-
-<!--Room Modal Section-->
-<div class="room-modal" id="deluxeModal">
-    <div class="room-modal-content">
-
-        <!--Header-->
-        <div class="room-modal-header">
-            <h2>Deluxe Room</h2>
-            <button class="close-modal" onclick="closeModal('deluxeModal')">
-            ×
-            </button>
-
-        </div>
-
-        <!--Image-->
-        <div class="room-modal-image">
-            <img src="https://www.travelandleisure.com/thmb/Rbw2akzNOkyIIJAq8fIHPaAQKlM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-four-seasons-tamarindo-beach-ITLIST2023-2d9121504b8941c9bcecb1362f289a1e.jpg" alt="Deluxe Room">
-        </div>
-
-        <!--Room Intro-->
-         <div class="room-modal-body">
-
-            <div class="room-modal-intro">
-
-                <div>
-
-                    <h3>
-                        Deluxe Room, 1 King
-                    </h3>
-
-                    <p>
-                        1 King, Mini fridge, 45sqm,
-                        Wireless internet, complimentary,
-                        Coffee/tea maker
-                    </p>
-            <hr>
-
-                    <!-- ROOM INFORMATION -->
-            <div class="room-modal-grid">
-
-                <!-- SPECIAL BENEFITS -->
-                <div class="modal-section">
-
-                    <h4>
-                        <span>♧</span>
-                        Special Benefits
-                    </h4>
-
-                    <p>
-                        This room features complimentary
-                        breakfast and lounge access.
-                    </p>
-
-                </div>
-
-
-                <!-- BEDS -->
-                <div class="modal-section">
-
-                    <h4>
-                        <span>♧</span>
-                        Beds and Bedding
-                    </h4>
-
-                    <p>Maximum occupancy: 3</p>
-
-                    <p>1 King</p>
-
-                    <p>Rollaway beds not permitted</p>
-
-                    <p>Cribs not permitted</p>
-
-                    <p>Pillowtop mattress, and Duvet</p>
-
-                </div>
-
-
-                <!-- ROOM FEATURES -->
-                <div class="modal-section">
-
-                    <h4>
-                        <span>▱</span>
-                        Room Features
-                    </h4>
-
-                    <p>45sqm</p>
-
-                    <p>Air-conditioned</p>
-
-                    <p>Mini fridge</p>
-
-                    <p>Coffee/tea maker</p>
-
-                </div>
-
-
-                <!-- BATHROOM -->
-                <div class="modal-section">
-
-                    <h4>
-                        <span>♧</span>
-                        Bath and Bathroom Features
-                    </h4>
-
-                    <p>Shower</p>
-
-                    <p>Hair dryer</p>
-
-                    <p>Bathrobe</p>
-
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-</div>
-
 <!-- =========================
-     OCEAN VILLA MODAL
+     GALLERY
 ========================= -->
 
-<div class="room-modal" id="oceanModal">
+<section class="gallery-section" id="gallery">
 
-    <div class="room-modal-content">
+    <div class="gallery-heading">
 
-        <div class="room-modal-header">
+        <p class="gallery-label">A GLIMPSE OF CORAL BAY</p>
 
-            <h2>Ocean Villa</h2>
+        <h2>
+            Moments worth remembering.
+        </h2>
 
-            <button class="close-modal"
-                    onclick="closeModal('oceanModal')">
-                ×
-            </button>
+    </div>
 
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item gallery-large">
+            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/621208256.jpg?k=3687b86767b34e79064a68065757802a8e861625c35fa3ee7d1eeed8c136144b&o=" alt="Coral Bay">
         </div>
 
-
-        <div class="room-modal-image">
-
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT13WzukpAOhgmWQav27C9kBs-bUkfOvmdzIOuDCGPD8oizmbO3UfRfmoX2&s=10"
-                 alt="Ocean Villa">
-
-            <div class="image-controls">
-
-                <span>‹</span>
-
-                <div class="image-dots">
-                    <span class="active"></span>
-                    <span></span>
-                    <span></span>
-                </div>
-
-                <span>›</span>
-
-            </div>
-
+        <div class="gallery-item">
+            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/531616471.jpg?k=19d83ff77143977136b3311d0ff4595807c5aec2f4e831699ca5ee32b4f723a0&o=" alt="Coral Bay">
         </div>
 
+        <div class="gallery-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-E8qFE5mwPJh78gufshl4-dRCLuFCVqbEEYPkY8JWKNdC8MDh4FWJe4&s=10" alt="Coral Bay">
+        </div>
 
-        <div class="room-modal-body">
+        <div class="gallery-item">
+            <img src="https://partyandbeyond.com/wp-content/uploads/2026/06/Beach-Party-Ideas.webp" alt="Coral Bay">
+        </div>
 
-            <div class="room-modal-intro">
-
-                <div>
-
-                    <h3>Ocean Villa, 1 King</h3>
-
-                    <p>
-                        1 King, Private ocean view, 65sqm,
-                        Wireless internet, Mini fridge,
-                        Coffee/tea maker
-                    </p>
-
-                </div>
-
-                <a href="#" class="modal-rate-btn">
-                    View Rates
-                </a>
-
-            </div>
-
-
-            <hr>
-
-
-            <div class="room-modal-grid">
-
-                <div class="modal-section">
-
-                    <h4>♧ Special Benefits</h4>
-
-                    <p>
-                        Private ocean view and
-                        complimentary breakfast.
-                    </p>
-
-                </div>
-
-
-                <div class="modal-section">
-
-                    <h4>♧ Beds and Bedding</h4>
-
-                    <p>Maximum occupancy: 3</p>
-                    <p>1 King</p>
-                    <p>Rollaway beds permitted</p>
-                    <p>Cribs available</p>
-
-                </div>
-
-
-                <div class="modal-section">
-
-                    <h4>▱ Room Features</h4>
-
-                    <p>65sqm</p>
-                    <p>Air-conditioned</p>
-                    <p>Ocean view</p>
-                    <p>Mini fridge</p>
-                    <p>Coffee/tea maker</p>
-
-                </div>
-
-
-                <div class="modal-section">
-
-                    <h4>♧ Bath and Bathroom Features</h4>
-
-                    <p>Rain shower</p>
-                    <p>Hair dryer</p>
-                    <p>Bathrobe</p>
-
-                </div>
-
-            </div>
-
+        <div class="gallery-item">
+            <img src="https://img.magnific.com/free-photo/tropical-sunset-palm-trees-beach_84443-86518.jpg?semt=ais_hybrid&w=740&q=80" alt="Coral Bay">
         </div>
 
     </div>
 
-</div>
+</section>
 
 <!-- =========================
-     BEACH SUITE MODAL
+     CONTACT & RESERVATION
 ========================= -->
 
-<div class="room-modal" id="beachModal">
+<section class="contact-section" id="contact">
 
-    <div class="room-modal-content">
+    <div class="contact-content">
 
-        <div class="room-modal-header">
+        <p class="contact-label">GET IN TOUCH</p>
 
-            <h2>Beach Suite</h2>
+        <h2>
+            Your escape<br>
+            awaits.
+        </h2>
 
-            <button class="close-modal"
-                    onclick="closeModal('beachModal')">
-                ×
-            </button>
+        <p class="contact-text">
+            Come away to Coral Bay and experience
+            a stay surrounded by comfort, calm,
+            and the beauty of the coast.
+        </p>
 
-        </div>
+        <div class="contact-details">
+
+            <div class="contact-detail">
+                <span>LOCATION</span>
+
+                <p>
+                    Coral Bay, Coastal Road<br>
+                    India
+                </p>
+            </div>
 
 
-        <div class="room-modal-image">
+            <div class="contact-detail">
+                <span>CONTACT</span>
 
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MdwCCfjMZxs8Pyo_FsdXHOoGtMm1VrjjNqVEwSSDPfslXWMDDfN9Zfk&s=10"
-                 alt="Beach Suite">
-
-            <div class="image-controls">
-
-                <span>‹</span>
-
-                <div class="image-dots">
-                    <span class="active"></span>
-                    <span></span>
-                    <span></span>
-                </div>
-
-                <span>›</span>
-
+                <p>
+                    +91 98765 43210<br>
+                    stay@coralbay.com
+                </p>
             </div>
 
         </div>
 
-
-        <div class="room-modal-body">
-
-            <div class="room-modal-intro">
-
-                <div>
-
-                    <h3>Beach Suite, 1 King</h3>
-
-                    <p>
-                        1 King, Private beach access,
-                        70sqm, Wireless internet,
-                        Mini fridge, Coffee/tea maker
-                    </p>
-
-                </div>
-
-                <a href="#" class="modal-rate-btn">
-                    View Rates
-                </a>
-
-            </div>
-
-
-            <hr>
-
-
-            <div class="room-modal-grid">
-
-                <div class="modal-section">
-
-                    <h4>♧ Special Benefits</h4>
-
-                    <p>
-                        Private beach access and
-                        complimentary breakfast.
-                    </p>
-
-                </div>
-
-
-                <div class="modal-section">
-
-                    <h4>♧ Beds and Bedding</h4>
-
-                    <p>Maximum occupancy: 3</p>
-                    <p>1 King</p>
-                    <p>Rollaway beds permitted</p>
-                    <p>Cribs available</p>
-
-                </div>
-
-
-                <div class="modal-section">
-
-                    <h4>▱ Room Features</h4>
-
-                    <p>70sqm</p>
-                    <p>Air-conditioned</p>
-                    <p>Beach view</p>
-                    <p>Mini fridge</p>
-                    <p>Coffee/tea maker</p>
-
-                </div>
-
-
-                <div class="modal-section">
-
-                    <h4>♧ Bath and Bathroom Features</h4>
-
-                    <p>Rain shower</p>
-                    <p>Hair dryer</p>
-                    <p>Bathrobe</p>
-                    <p>Luxury toiletries</p>
-
-                </div>
-
-            </div>
-
-        </div>
+        <a href="#" class="contact-btn">
+            MAKE A RESERVATION
+        </a>
 
     </div>
 
-</div>
+</section>
 
 <!-- =========================
-     GARDEN VILLA MODAL
+     FOOTER
 ========================= -->
 
-<div class="room-modal" id="gardenModal">
+<footer class="footer">
 
-    <div class="room-modal-content">
+    <div class="footer-main">
 
-        <div class="room-modal-header">
+        <div class="footer-brand">
+            <h2>CORAL BAY</h2>
 
-            <h2>Garden Villa</h2>
-
-            <button class="close-modal"
-                    onclick="closeModal('gardenModal')">
-                ×
-            </button>
-
+            <p>
+                A coastal retreat designed
+                for unforgettable stays.
+            </p>
         </div>
 
 
-        <div class="room-modal-image">
+        <div class="footer-links">
 
-            <img src="https://www.kayak.co.in/rimg/himg/98/aa/2c/expedia_group-188445-181466277-863690.jpg?width=836&height=607&crop=true"
-                 alt="Garden Villa">
+            <div>
+                <span>EXPLORE</span>
 
-            <div class="image-controls">
-
-                <span>‹</span>
-
-                <div class="image-dots">
-                    <span class="active"></span>
-                    <span></span>
-                    <span></span>
-                </div>
-
-                <span>›</span>
-
-            </div>
-
-        </div>
-
-
-        <div class="room-modal-body">
-
-            <div class="room-modal-intro">
-
-                <div>
-
-                    <h3>Garden Villa, 1 King</h3>
-
-                    <p>
-                        1 King, Garden view, 60sqm,
-                        Wireless internet, Mini fridge,
-                        Coffee/tea maker
-                    </p>
-
-                </div>
-
-                <a href="#" class="modal-rate-btn">
-                    View Rates
-                </a>
-
+                <a href="#">Rooms</a>
+                <a href="#">Experiences</a>
+                <a href="#">Gallery</a>
             </div>
 
 
-            <hr>
+            <div>
+                <span>CONTACT</span>
+
+                <a href="#">Contact Us</a>
+                <a href="#">Reservations</a>
+                <a href="#">Location</a>
+            </div>
 
 
-            <div class="room-modal-grid">
+            <div>
+                <span>FOLLOW</span>
 
-                <div class="modal-section">
-
-                    <h4>♧ Special Benefits</h4>
-
-                    <p>
-                        Private garden view and
-                        complimentary breakfast.
-                    </p>
-
-                </div>
-
-
-                <div class="modal-section">
-
-                    <h4>♧ Beds and Bedding</h4>
-
-                    <p>Maximum occupancy: 3</p>
-                    <p>1 King</p>
-                    <p>Rollaway beds permitted</p>
-                    <p>Cribs available</p>
-
-                </div>
-
-
-                <div class="modal-section">
-
-                    <h4>▱ Room Features</h4>
-
-                    <p>60sqm</p>
-                    <p>Air-conditioned</p>
-                    <p>Garden view</p>
-                    <p>Mini fridge</p>
-                    <p>Coffee/tea maker</p>
-
-                </div>
-
-
-                <div class="modal-section">
-
-                    <h4>♧ Bath and Bathroom Features</h4>
-
-                    <p>Shower</p>
-                    <p>Hair dryer</p>
-                    <p>Bathrobe</p>
-
-                </div>
-
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
             </div>
 
         </div>
 
     </div>
 
-</div>
 
-<!-- =========================
-     PRESIDENTIAL SUITE MODAL
-========================= -->
+    <div class="footer-bottom">
 
-<div class="room-modal" id="presidentialModal">
+        <p>© 2026 Coral Bay. All rights reserved.</p>
 
-    <div class="room-modal-content">
-
-        <div class="room-modal-header">
-
-            <h2>Presidential Suite</h2>
-
-            <button class="close-modal"
-                    onclick="closeModal('presidentialModal')">
-                ×
-            </button>
-
-        </div>
-
-
-        <div class="room-modal-image">
-
-            <img src="https://static.vecteezy.com/system/resources/thumbnails/057/820/831/small/the-interior-of-the-hotel-room-with-a-view-ocean-for-a-beach-holiday-and-travel-photo.jpg"
-                 alt="Presidential Suite">
-
-            <div class="image-controls">
-
-                <span>‹</span>
-
-                <div class="image-dots">
-                    <span class="active"></span>
-                    <span></span>
-                    <span></span>
-                </div>
-
-                <span>›</span>
-
-            </div>
-
-        </div>
-
-
-        <div class="room-modal-body">
-
-            <div class="room-modal-intro">
-
-                <div>
-
-                    <h3>Presidential Suite, 1 King</h3>
-
-                    <p>
-                        1 King, Private lounge, 130sqm,
-                        Wireless internet, Mini fridge,
-                        Coffee/tea maker
-                    </p>
-
-                </div>
-
-                <a href="#" class="modal-rate-btn">
-                    View Rates
-                </a>
-
-            </div>
-
-
-            <hr>
-
-
-            <div class="room-modal-grid">
-
-                <div class="modal-section">
-
-                    <h4>♧ Special Benefits</h4>
-
-                    <p>
-                        Private lounge access,
-                        complimentary breakfast,
-                        personalized service.
-                    </p>
-
-                </div>
-
-
-                <div class="modal-section">
-
-                    <h4>♧ Beds and Bedding</h4>
-
-                    <p>Maximum occupancy: 3</p>
-                    <p>1 King</p>
-                    <p>Rollaway beds not permitted</p>
-                    <p>Cribs not permitted</p>
-                    <p>Pillowtop mattress, and Duvet</p>
-
-                </div>
-
-
-                <div class="modal-section">
-
-                    <h4>▱ Room Features</h4>
-
-                    <p>130sqm</p>
-                    <p>Air-conditioned</p>
-                    <p>Separate living area</p>
-                    <p>Mini fridge</p>
-                    <p>Coffee/tea maker</p>
-
-                </div>
-
-
-                <div class="modal-section">
-
-                    <h4>♧ Bath and Bathroom Features</h4>
-
-                    <p>Rain shower</p>
-                    <p>Hair dryer</p>
-                    <p>Bathrobe</p>
-                    <p>Luxury toiletries</p>
-
-                </div>
-
-            </div>
-
-        </div>
+        <p>Privacy Policy &nbsp;&nbsp; Terms</p>
 
     </div>
 
-</div>
+</footer>
 
-<!-- =========================
-     ROYAL RESIDENCE MODAL
-========================= -->
+    <!-- =========================
+         EXTERNAL JAVASCRIPT
+    ========================== -->
 
-<div class="room-modal" id="royalModal">
-
-    <div class="room-modal-content">
-
-        <div class="room-modal-header">
-
-            <h2>Royal Residence</h2>
-
-            <button class="close-modal"
-                    onclick="closeModal('royalModal')">
-                ×
-            </button>
-
-        </div>
-
-
-        <div class="room-modal-image">
-
-            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/54/8f/8d/caption.jpg?w=900&h=500&s=1" alt="Royal Residence"
-                 alt="Royal Residence">
-
-            <div class="image-controls">
-
-                <span>‹</span>
-
-                <div class="image-dots">
-                    <span class="active"></span>
-                    <span></span>
-                    <span></span>
-                </div>
-
-                <span>›</span>
-
-            </div>
-
-        </div>
-
-
-        <div class="room-modal-body">
-
-            <div class="room-modal-intro">
-
-                <div>
-
-                    <h3>Royal Residence, 2 King Beds</h3>
-
-                    <p>
-                        2 King Beds, Private pool,
-                        Ocean view, 180sqm,
-                        Wireless internet, Mini fridge
-                    </p>
-
-                </div>
-
-                <a href="#" class="modal-rate-btn">
-                    View Rates
-                </a>
-
-            </div>
-
-
-            <hr>
-
-
-            <div class="room-modal-grid">
-
-                <div class="modal-section">
-
-                    <h4>♧ Special Benefits</h4>
-
-                    <p>
-                        Private pool, private ocean view
-                        and complimentary breakfast.
-                    </p>
-
-                </div>
-
-
-                <div class="modal-section">
-
-                    <h4>♧ Beds and Bedding</h4>
-
-                    <p>Maximum occupancy: 5</p>
-                    <p>2 King Beds</p>
-                    <p>Rollaway beds permitted</p>
-                    <p>Cribs available</p>
-
-                </div>
-
-
-                <div class="modal-section">
-
-                    <h4>▱ Room Features</h4>
-
-                    <p>180sqm</p>
-                    <p>Air-conditioned</p>
-                    <p>Private pool</p>
-                    <p>Ocean view</p>
-                    <p>Separate living area</p>
-                    <p>Mini fridge</p>
-
-                </div>
-
-
-                <div class="modal-section">
-
-                    <h4>♧ Bath and Bathroom Features</h4>
-
-                    <p>Rain shower</p>
-                    <p>Hair dryer</p>
-                    <p>Bathrobe</p>
-                    <p>Bathtub</p>
-                    <p>Luxury toiletries</p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-<script>
-
-function openModal(modalId) {
-
-    const modal = document.getElementById(modalId);
-
-    if (!modal) {
-        console.error("Modal not found:", modalId);
-        return;
-    }
-
-    modal.classList.add("active");
-
-    document.body.style.overflow = "hidden";
-}
-
-
-function closeModal(modalId) {
-
-    const modal = document.getElementById(modalId);
-
-    if (!modal) {
-        console.error("Modal not found:", modalId);
-        return;
-    }
-
-    modal.classList.remove("active");
-
-    document.body.style.overflow = "";
-}
-
-
-/* Close when clicking outside */
-
-document.querySelectorAll(".room-modal").forEach(function(modal) {
-
-    modal.addEventListener("click", function(event) {
-
-        if (event.target === modal) {
-            closeModal(modal.id);
-        }
-
-    });
-
-});
-
-
-/* Close with Escape */
-
-document.addEventListener("keydown", function(event) {
-
-    if (event.key === "Escape") {
-
-        document.querySelectorAll(".room-modal").forEach(function(modal) {
-
-            modal.classList.remove("active");
-
-        });
-
-        document.body.style.overflow = "";
-
-    }
-
-});
-
-</script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>

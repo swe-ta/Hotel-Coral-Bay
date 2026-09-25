@@ -255,7 +255,7 @@ nav {
 
 /* Explore Rooms */
 
-.rooms {
+.room-section {
     text-decoration: none;
 
     color: white;
@@ -340,7 +340,7 @@ nav {
    ABOUT SECTION
 ========================= */
 
-.about {
+.about-section {
     width: 100%;
     min-height: 600px;
 
@@ -411,7 +411,7 @@ nav {
    ROOMS SECTION
 ========================= */
 
-.rooms {
+.room-section {
     width: 100%;
     padding: 100px 8%;
     background-color: #8e3413;
@@ -531,23 +531,15 @@ nav {
     width: 100%;
 }
 
-.room-details a {
+.room-details a{
     color: black;
-
-    font-size: 16px;
-
-    text-underline-offset: 2px;
-
-    text-decoration-style: line;
-
-
+    text-decoration: none;
 }
 
-.room-details a:hover{
-    
-    text-decoration-thickness: 3px;
+.room-details a:hover {
+    color: black;
+    text-decoration: underline;
 }
-
 .solid {
   border: none;          
   height: 1px;           
@@ -1000,4 +992,582 @@ nav {
     margin: 0 0 22px;
 
     color: #333;
+}
+
+/* =========================
+   ABOUT CORAL BAY
+========================= */
+
+.about-section {
+    width: 100%;
+    min-height: 650px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 100px 8%;
+
+    background-color: #f5f1eb;
+}
+
+
+/* LEFT CONTENT */
+
+.about-content {
+    width: 45%;
+    padding-right: 8%;
+}
+
+.about-label {
+
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    color: #8e3413;
+}
+
+.about-content h2 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.15;
+
+    margin-bottom: 25px;
+
+    color: #2b211c;
+}
+
+.about-text {
+    font-family: Arial, sans-serif;
+
+    font-size: 14px;
+    line-height: 1.8;
+
+    color: #5f5751;
+
+    margin-bottom: 35px;
+}
+
+
+/* DISCOVER MORE */
+
+.about-link {
+    display: inline-block;
+
+    padding: 14px 28px;
+
+    background-color: #8e3413;
+    color: white;
+
+    font-size: 11px;
+    letter-spacing: 2px;
+
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+.about-link:hover {
+    background-color: #2b211c;
+    color: white;
+}
+
+
+/* RIGHT IMAGE */
+
+.about-image {
+    width: 55%;
+    height: 500px;
+
+    overflow: hidden;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition: transform 0.7s ease;
+}
+
+.about-image:hover img {
+    transform: scale(1.04);
+}
+
+/* =========================
+   EXPERIENCES SECTION
+========================= */
+
+.experience-section {
+    width: 100%;
+    padding: 110px 8%;
+
+    background-color: #412e25;
+    color: white;
+}
+
+
+/* HEADING */
+
+.experience-heading {
+    width: 55%;
+    margin-bottom: 60px;
+}
+
+.experience-label {
+    font-size: 14px;
+    letter-spacing: 5px;
+    color:white;
+
+    margin-bottom: 22px;
+}
+
+.experience-heading h2 {
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 1.15;
+
+    margin-bottom: 22px;
+}
+
+.experience-heading p:last-child {
+    font-family: Arial, sans-serif;
+
+    font-size: 14px;
+    line-height: 1.8;
+
+    color: #d5ccc6;
+
+    max-width: 500px;
+}
+
+
+/* CARDS */
+
+.experience-cards {
+    display: flex;
+    gap: 25px;
+}
+
+
+.experience-card {
+    position: relative;
+
+    width: 33.33%;
+    height: 430px;
+
+    overflow: hidden;
+}
+
+
+.experience-card img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition: transform 0.7s ease;
+}
+
+
+/* DARK OVERLAY */
+
+.experience-card::after {
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.05)
+    );
+}
+
+
+/* CARD CONTENT */
+
+.experience-card-content {
+    position: absolute;
+
+    left: 25px;
+    right: 25px;
+    bottom: 25px;
+
+    z-index: 2;
+}
+
+
+.experience-card-content p {
+    font-family: Arial, sans-serif;
+
+    font-size: 11px;
+    letter-spacing: 2px;
+
+    margin-bottom: 10px;
+
+    color: #d5ccc6;
+}
+
+
+.experience-card-content h3 {
+    font-size: 28px;
+    font-weight: 400;
+
+    margin-bottom: 18px;
+}
+
+
+.experience-card-content a {
+    color: white;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 10px;
+    letter-spacing: 2px;
+
+    text-decoration: none;
+
+    border-bottom: 1px solid white;
+
+    padding-bottom: 6px;
+
+    transition: 0.3s;
+}
+
+
+/* HOVER */
+
+.experience-card:hover img {
+    transform: scale(1.06);
+}
+
+
+.experience-card-content a:hover {
+    color: #d99a78;
+    border-color: #d99a78;
+}
+
+/* =========================
+   GALLERY SECTION
+========================= */
+
+.gallery-section {
+    width: 100%;
+    padding: 110px 8%;
+
+    background-color: #f5f1eb;
+}
+
+
+/* HEADING */
+
+.gallery-heading {
+    margin-bottom: 55px;
+}
+
+.gallery-label {
+    font-size: 14px;
+    letter-spacing: 5px;
+
+    color: #8e3413;
+
+    margin-bottom: 20px;
+}
+
+.gallery-heading h2 {
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 1.15;
+
+    color: #2b211c;
+}
+
+
+/* GALLERY GRID */
+
+.gallery-grid {
+    display: grid;
+
+    grid-template-columns: 1.4fr 1fr 1fr;
+    grid-template-rows: 260px 260px;
+
+    gap: 18px;
+}
+
+
+/* IMAGES */
+
+.gallery-item {
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition: transform 0.7s ease;
+}
+
+
+/* LARGE IMAGE */
+
+.gallery-large {
+    grid-row: 1 / 3;
+}
+
+
+/* HOVER */
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+/* =========================
+   CONTACT & RESERVATION
+========================= */
+
+.contact-section {
+    width: 100%;
+    padding: 110px 8%;
+
+    background-color: #8e3413;
+    color: white;
+
+    text-align: center;
+}
+
+
+/* CONTENT */
+
+.contact-content {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+
+.contact-label {
+    font-size: 14px;
+    letter-spacing: 4px;
+
+    margin-bottom: 25px;
+
+    color: #f1d8ca;
+}
+
+
+.contact-content h2 {
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 1.1;
+
+    margin-bottom: 25px;
+}
+
+
+.contact-text {
+    max-width: 500px;
+
+    margin: 0 auto 45px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 14px;
+    line-height: 1.8;
+
+    color: #f4e5dd;
+}
+
+
+/* CONTACT DETAILS */
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+
+    gap: 100px;
+
+    margin-bottom: 45px;
+}
+
+
+.contact-detail span {
+    display: block;
+
+    font-size: 10px;
+    letter-spacing: 2px;
+
+    margin-bottom: 12px;
+
+    color: #f1d8ca;
+}
+
+
+.contact-detail p {
+    font-family: Arial, sans-serif;
+
+    font-size: 13px;
+    line-height: 1.7;
+
+    color: white;
+}
+
+
+/* RESERVATION BUTTON */
+
+.contact-btn {
+    display: inline-block;
+
+    padding: 15px 30px;
+
+    background-color: white;
+    color: #2b211c;
+
+    font-size: 12px;
+    letter-spacing: 3px;
+
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+
+.contact-btn:hover {
+    background-color: #2b211c;
+    color: white;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+    width: 100%;
+
+    background-color: #211914;
+    color: white;
+
+    padding: 70px 8% 25px;
+}
+
+
+/* MAIN FOOTER */
+
+.footer-main {
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 80px;
+
+    padding-bottom: 60px;
+}
+
+
+/* BRAND */
+
+.footer-brand {
+    max-width: 300px;
+}
+
+
+.footer-brand h2 {
+    font-size: 24px;
+    font-weight: 400;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 18px;
+}
+
+
+.footer-brand p {
+    font-family: Arial, sans-serif;
+
+    font-size: 13px;
+    line-height: 1.7;
+
+    color: #bdb3ad;
+}
+
+
+/* LINKS */
+
+.footer-links {
+    display: flex;
+
+    gap: 80px;
+}
+
+
+.footer-links div {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+
+.footer-links span {
+    font-size: 12px;
+    letter-spacing: 2px;
+
+    color: #c98769;
+
+    margin-bottom: 8px;
+}
+
+
+.footer-links a {
+    font-family: Arial, sans-serif;
+
+    font-size: 13px;
+
+    color: #d8d0ca;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+
+.footer-links a:hover {
+    color: white;
+}
+
+
+/* BOTTOM */
+
+.footer-bottom {
+    display: flex;
+
+    justify-content: space-between;
+
+    padding-top: 25px;
+
+    border-top: 1px solid rgba(255,255,255,0.15);
+}
+
+
+.footer-bottom p {
+    font-family: Arial, sans-serif;
+
+    font-size: 10px;
+
+    color: #8f8782;
+}
+
+html {
+    scroll-behavior: smooth;
 }
